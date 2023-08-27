@@ -153,7 +153,7 @@ WHERE (Stname, Job_tittle) NOT IN (
   INNER JOIN sales_order ON sales_order.sales_ID = packs.sales_ID
 );
 
-select * from product where purchase_order_id="32719";
+select * from product where purchase_order_id="32791";
 
 select count(*),job_tittle from staff group by job_tittle;
 
